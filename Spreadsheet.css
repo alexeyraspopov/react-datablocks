@@ -1,0 +1,11 @@
+.spreadsheet {
+  display: flex;
+  flex-direction: column;
+}
+.spreadsheet-header {
+  flex-shrink: 0;
+}
+.spreadsheet-content {
+  flex-basis: 100%;
+  overflow: auto;
+}
